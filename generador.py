@@ -1,6 +1,5 @@
 #-*- coding: utf-8 -*-
 import tracery
-from tracery.modifiers import base_english
 import json
 
 with open("bot_CD.json", "r") as f:

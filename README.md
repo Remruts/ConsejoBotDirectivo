@@ -1,7 +1,7 @@
 # Consejo Bot Directivo
 En este repo se encuentra la gramática de [Tracery](http://tracery.io) usada en el bot https://twitter.com/cd_exactas_bot por [@remruts](https://twitter.com/remruts)
 
-El bot original fue hecho con http://cheapbotsdonequick.com y la gramática definida en `bot_CD.json` que usa svgs para las imágenes.
+El bot original fue hecho con http://cheapbotsdonequick.com y hosteado en la misma página de manera gratuita. La gramática definida en `bot_CD.json` que usa svgs para las imágenes.
 
 El repo trae una implementación de ejemplo en python 3 que genera imágenes en svg a partir de la gramática. Para usarlo, instalar [pytracery](https://github.com/aparrish/pytracery) y ejecutar
 
