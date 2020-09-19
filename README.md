@@ -11,10 +11,11 @@ El repo trae una implementación de ejemplo en python 3 que genera imágenes en 
 
 ![ejemplo](ejemplo.svg "sí, puede generar muchas cosas horribles, ja")
 
-## Tutoriales que usé para esto:
+## Tutoriales y recursos que usé para esto:
+- Cheap Bots Done Quick es una página que hostea gratis bots de Twitter que usan gramáticas de Tracery: http://cheapbotsdonequick.com
 - Tutorial de Tracery por su creadora: http://www.crystalcodepalace.com/traceryTut.html
 - Tutorial de svg con Tracery: https://github.com/derekahmedzai/cheapbotsdonequick/blob/master/svg-tracery-image-bots.md
 - Una respuesta de stackoverflow que perdí que decía que para hacer saltos de línea en svgs tenés que poner el texto entre `<tspan x=\"50\" dy=\"1.2em\">` y `</tspan>`
-
+- Los emojis los saqué de este repo: https://github.com/dariusk/corpora, que tiene corpora lindas de distintos datos, como una lista de emojis, animales, plantas, series de TV, personas, objetos varios, etc.
 
 
