@@ -1,0 +1,419 @@
+{
+    "origin":["#[#setArticles#][persona:#personas#]image#"],
+
+    "setArticles": ["#lista_articulos#"],
+    "lista_articulos":["#lista_2#", "#lista_3#", "#lista_4#", "#lista_5#"],
+    "personas":["#personas_masc#"],
+    "personas_masc":["Marto", "Charlie", "Rozen", "Aliaga", "Reboreda", "Barbieri", "Wilkinson"],
+    "personas_fem":[""],
+
+    "image": ["{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"1024\" height=\"512\" style=\"position: relative;background-color:#background_colors#;\"><rect x=\"0\" y=\"0\" rx=\"0\" ry=\"0\" width=\"1024\" height=\"512\" style=\"fill:#background_colors#;stroke:none;opacity:1.0\"/><rect x=\"20\" y=\"20\" rx=\"20\" ry=\"20\" width=\"984\" height=\"472\" style=\"fill:white;stroke:black;stroke-width:5;opacity:0.90;stroke-dasharray:5, 5\"/><rect x=\"944\" y=\"432\" rx=\"5\" ry=\"5\" width=\"32\" height=\"32\" style=\"fill:none;stroke:red;stroke-width:5;opacity:1.0\"/><text x=\"10\" y=\"180\" font-size=\"12\" text-anchor=\"left\" font-family=\"sans serif\">#resolucion#</text></svg>}"],
+    "background_colors": ["rgb(255, 173, 173)", "rgb(255, 214, 165)", "rgb(253, 255, 182)", "rgb(202, 255, 191)", "rgb(155, 246, 255)", "rgb(160, 196, 255)", "rgb(189, 178, 255)", "rgb(255, 198, 255)", "rgb(255, 255, 252)"],
+    
+    "header": ["#tss#Resolucion (CD) Nº #nro##emoji_combo#/20#tse##tss# #tse#"],
+    "resolucion": ["#header##tss#EL CONSEJO DIRECTIVO DE LA FACULTAD DE CIENCIAS EXACTAS Y NATURALES RESUELVE:#tse##tss# #tse##lista_articulos#"],
+
+    "lista_2": ["#tss#ARTICULO 1°: #articulo1##tse##tss# #tse##tss#ARTICULO 2°: #articulo_final##tse#"],
+    "lista_3": ["#tss#ARTICULO 1°: #articulo1##tse##tss# #tse##tss#ARTICULO 2°: #articulo2##tse##tss# #tse##tss#ARTICULO 3°: #articulo_final##tse#"],
+    "lista_4": ["#tss#ARTICULO 1°: #articulo1##tse##tss# #tse##tss#ARTICULO 2°: #articulo2##tse##tss# #tse##tss#ARTICULO 3°: #articulo2##tse##tss# #tse##tss#ARTICULO 4°: #articulo_final##tse#"],
+    "lista_5": ["#tss#ARTICULO 1°: #articulo1##tse##tss# #tse##tss#ARTICULO 2°: #articulo2##tse##tss# #tse##tss#ARTICULO 3°: #articulo3##tse##tss# #tse##tss#ARTICULO 4°: #articulo4##tse##tss# #tse##tss#ARTICULO 5°: #articulo_final##tse#"],
+
+    "articulo1": [
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#custom_random#"
+    ],
+    "articulo2": [
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#custom_random#"
+    ],
+    "articulo3": [
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#custom_random#"
+    ],
+    "articulo4": [
+        "#starters# #sustantivo# #accion#.",
+        "#custom_random#"
+    ],
+
+    "custom_random": [
+        "Felicitar a Charlie.",
+        "Bardear a Marto.",
+        "Pedir por la desubscripción a esta lista de mails.",
+        "Burlarse de la gente que no quiere política en la facultad.",
+        "#starters# #persona# recurse análisis.",
+        "#starters# #persona# tenga que rendir el final de análisis.",
+        "#starters# Ingeniería 1 cambie los contenidos con los de Ingeniería 2.",
+        "#starters# #personas_masc# demuestre teoremas ebrio en #lugar#",
+        "#starters# los TPs sean #cuantificador# #tipo_tps#.",
+        "#starters# los exámenes #tipo_examen# sean #cuantificador# #tipo_tps#.",
+        "#starters# se nos compare con #personaje_pop#.",
+        "#starters# la Noriega compre más #productos#.",
+        "#starters# se provea de #productos# a todos los alumnos de manera gratuita.",
+        "#starters# en #lugar# se vendan #producto_ilegal#.",
+        "Condenar a las personas que dicen Comunicación en vez de Computación."
+    ],
+
+    "personaje_pop": [
+        "Sheldon Cooper",
+        "Dexter",
+        "Peter Parker",
+        "Hermione Granger",
+        "Walter White",
+        "Spock",
+        "Lisa Simpson",
+        "Dwight",
+        "Jimmy Neutron",
+        "Milhouse",
+        "el hombre de las historietas",
+        "una calculadora humana",
+        "Abed Nadir"
+    ],
+
+    "producto_ilegal": [
+        "apuntes ilegales",
+        "cuentas de Twitter de profesores",
+        "derivadas de eˣ",
+        "cuadrados mágicos",
+        "algoritmos que resuelvan el problema de la parada",
+        "gravitones",
+        "martingalas para la ruleta a alumnos de la FADU"
+    ],
+
+    "productos": [
+        "sanguches de pollo",
+        "sanguches de milanesa",
+        "empanadas de carne",
+        "empanadas de pollo",
+        "empanadas de jamón y queso",
+        "empanadas de humita",
+        "chocolates"
+    ],
+
+    "cuantificador": ["más", "menos", "un poquito más", "un poquito menos", "mucho más", "mucho menos", "imposiblemente", "inconmensurablemente"],
+
+    "tipo_tps": [
+        "largos",
+        "cortos",
+        "difíciles",
+        "fáciles",
+        "coloridos",
+        "felices",
+        "gamificados",
+        "empresariales",
+        "groseros",
+        "abstractos",
+        "incomprensibles",
+        "feos",
+        "lindos",
+        "orientados a un público infantil"
+    ],
+
+    "articulo_final":["Regístrese, comuníquese, dése amplia difusión y publíquese en la página de la Facultad.",
+    "Regístrese, comuníquese #comunicados#. Dese amplia difusión. Cumplido, archívese."],
+
+    "tss":"<tspan x=\"50\" dy=\"1.2em\">",
+    "tse":"</tspan>",
+    
+    "emoji_combo": ["#emoji##emoji##emoji#", "#emoji#", "#emoji##emoji#"],
+    "nro": ["#digitos_sin_cero##digitos##digitos##digitos#"],
+    "digitos": ["0", "1", "2" , "3", "4", "5", "6", "7", "8", "9"],
+    "digitos_sin_cero": ["1", "2" , "3", "4", "5", "6", "7", "8", "9"],
+
+    "comunicados": [
+        "a los Directores de Carreras",
+        "a los Directores de Departamentos Docentes",
+        "al Consejo Superior",
+        "al Sr. Rector",
+        "a tu mami",
+        "a tu papi",
+        "al Gliptodonte",
+        "a #persona#",
+        "a #Dios#"
+    ],
+
+    "starters":[
+        "Autorizar con carácter de excepción, que",
+        "Establecer que",
+        "Exigir que",
+        "Determinar que",
+        "Condenar que",
+        "Expresar su rechazo a que",
+        "Expresar su profunda preocupación sobre que",
+        "Adherir a que",
+        "Garantizar que",
+        "Expresar nuestra solidaridad con que",
+        "Encomendar a #persona# la tarea de que",
+        "Solicitar que",
+        "Informar que",
+        "Informar en caracter de celebración que",
+        "Recordar a toda la comunidad de la facultad que"
+    ],
+
+    "nada": "",
+
+    "research_subject":[
+        "métodos contra la calvicie",
+        "afrodisíacos",
+        "formas de aprobar sin estudiar",
+        "formas de truchar títulos",
+        "tortas de chocolate",
+        "comida rápida",
+        "objetos fálicos",
+        "memes",
+        "avioncitos de papel",
+        "cantidad máxima de tazas de café diarias",
+        "cómo escaparse a la naturaleza",
+        "cómo decir a padres que querés abandonar la carrera"
+    ],
+
+    "sustantivo": [
+        "#objeto_u_objetos#", "#sujeto_o_sujetos#"
+    ],
+
+    "objeto_u_objetos":[
+        "#objeto#[accion:#accion_singular_objeto#]", 
+        "#objetos#[accion:#accion_plural_objetos#]"
+    ],
+
+    "sujeto_o_sujetos":[
+        "#sujeto#[accion:#accion_singular_sujeto#]", 
+        "#sujetos#[accion:#accion_plural_sujetos#]"
+    ],
+
+    "objeto": [
+        "#objeto_fem#[gender:a]", "#objeto_masc#[gender:o]"
+    ],
+
+    "objeto_masc":[
+        "el kiosco del CECEN",
+        "el Nuevo Plan de Estudios",
+        "el pabellón 0+∞",
+        "el reglamento de la facultad",
+        "Matlab",
+        "el grupo de Telegram",
+        "el grupo de Facebook",
+        "el partido de River"
+    ],
+    
+    "objeto_fem":[
+        "la lista de mails",
+        "la #area_de_estudio#",
+        "la Noche de Juegos",
+        "la estructura social endogámica de la facultad",
+        "la libreta universitaria de #persona#",
+        "la investigación de #research_subject#"
+    ],
+
+    "sujeto": [
+        "#sujeto_fem#[gender:a]", "#sujeto_masc#[gender:o]"
+    ],
+
+    "sujeto_masc":[
+        "el Gliptodonte",
+        "el personal no docente",
+        "el CECEN",
+        "el gatito de la FADU",
+        "#personas_masc#",
+        "el CONICET",
+        "el Gobierno Argentino",
+        "el Consejo Superior",
+        "el DM"
+    ],
+
+    "sujeto_fem":[
+        "la Nación Argentina",
+        "la comunidad de la Facultad"
+    ],
+
+    "lugar": [
+        "los labos",
+        "el comedor",
+        "el kiosco",
+        "los pasillos",
+        "el pabellón 2",
+        "el pabellón 1",
+        "el pabellón 0+∞",
+        "el Aula 3",
+        "el Aula 5",
+        "el Aula Magna",
+        "el DM",
+        "la terraza",
+        "el pastito",
+        "los baños",
+        "el entrepiso",
+        "la Noriega",
+        "el subsuelo",
+        "el CBC",
+        "la fotocopiadora del 1",
+        "La Copia",
+        "la industria",
+        "la página de la facu",
+        "el despacho de Aliaga",
+        "el puente Labruna"
+    ],
+
+    "objetos": [
+        "#objetos_fem#[gender:a]", "#objetos_masc#[gender:o]"
+    ],
+
+    "objetos_fem":[
+        "las asignaturas",
+        "las fotocopias",
+        "las #comcom#s",
+        "las materias que terminan a las 22hs"
+    ],
+
+    "comcom": [
+        "COMCOM",
+        "COMCOMCOM",
+        "COMCOMCOMCOM"
+    ],
+    
+    "objetos_masc": [
+        "los exámenes #tipo_examen#",
+        "los churros que venden los físicos",
+        "los lásers de los físicos",
+        "los TPs",
+        "los labos",
+        "los grafitis en los baños",
+        "los grupos de Telegram",
+        "los experimentos",
+        "los papers"
+    ],
+
+    "sujetos": [
+        "#sujetos_fem#[gender:a]", "#sujetos_masc#[gender:o]"
+    ],
+
+    "sujetos_masc":[
+        "los estudiantes de #area_de_estudio#",
+        "los estudiantes",
+        "los no docentes",
+        "los profesores",
+        "los bichos de Le' Pibe",
+        "los codepers"
+    ],
+    "sujetos_fem":[
+        "dos personas desnudas o en proceso de desnudarse"
+    ],
+
+    "tipo_examen": ["parciales", "finales", "libres"],
+    
+    "Dios": ["Gauss", "Turing", "Newton", "Marie Curie", "Ada Lovelace", "Grace Hopper", "Linus Torlvads", "El Cormen", "Arquímedes", "Yafu", "Wilkinson"],
+
+    "castigo": [
+        "contar cada uña en la colección de Stallman",
+        "tener que leer los mails de mijael",
+        "rendir el final de Análisis",
+        "recursar Análisis",
+        "probar P=NP",
+        "probar P!=NP",
+        "recitar Fibonacci por 8 horas",
+        "cantar la Canción del Software Libre frente a su familia",
+        "usar Word como editor de código",
+        "no moverse de la entrada del pabellón en época de elecciones",
+        "tener que buscar tema de tesis",
+        "tener que hacer una (o rehacer otra) tesis", 
+        "no poder ir a la Noche de Juegos por un año",
+        "adentrarse a la reserva de noche y sin compañía",
+        "ser convertid#gender# a la religión objetosa de Wilkinson",
+        "pagar el precio en sangre"
+    ],
+
+    "accion_singular_sujeto":[
+        "sea cancelad#gender#",
+        "podrá estudiar y trabajar",
+        "apruebe todos los exámenes #tipo_examen#",
+        "genera un sentimiento de depresión entre el alumnado",
+        "sea condenad#gender# a #castigo#",
+        "sea condenad#gender# a #castigo#",
+        "sea condenad#gender# a #castigo#",
+        "sea condenad#gender# a #castigo#",
+        "sea condenad#gender# a #castigo#",
+        "instaure un régimen totalitario",
+        "queme la facultad",
+        "se queje de #objetos#",
+        "se queje de #persona#",
+        "le gusta #objeto#",
+        "debe realizar más actividades deportivas",
+        "deje de jugar en #lugar#",
+        "deje de ensuciar #lugar#",
+        "esté jugando al Counter en #lugar#",
+        "pare de pegar carteles en #lugar#",
+        "de clases públicas en #lugar#",
+        "esté escondid#gender# en #lugar#",
+        "sea sacrificad#gender# a #Dios#",
+        "es un Objeto",
+        "rompa los afiches"
+    ],
+
+    "accion_singular_objeto": [
+        "sea tenido en cuenta al momento de confeccionar exámentes",
+        "genera un sentimiento de depresión entre el alumnado",
+        "destruya el capitalismo",
+        "es incompatible con #objetos#",
+        "sea contemplad#gender# en el Presupuesto",
+        "genera deserción"
+    ],
+
+    "accion_plural_sujetos": [
+        "sean cancelad#gender#s",
+        "aprueben todos los exámenes #tipo_examen#",
+        "sean condenad#gender#s a #castigo#",
+        "sean condenad#gender#s a #castigo#",
+        "sean condenad#gender#s a #castigo#",
+        "destruyan el capitalismo",
+        "instauren un régimen totalitario",
+        "quemen la facultad",
+        "se quejen de #objetos#",
+        "se quejen de #persona#",
+        "les gusta #objeto#",
+        "destruyan el sistema educativo",
+        "dejen de jugar en #lugar#",
+        "dejen de ensuciar #lugar#",
+        "paren de pegar carteles en #lugar#",
+        "den clases públicas en #lugar#",
+        "estén escondid#gender#s en #lugar#",
+        "estén jugando al Counter en #lugar#",
+        "sean contemplad#gender# en el Presupuesto",
+        "deben realizar más actividades deportivas",
+        "son demasiado #tipo_tps#",
+        "sea sacrificad#gender#s a #Dios#",
+        "tomen el decanato",
+        "rompan los afiches"
+    ],
+
+    "accion_plural_objetos":[
+        "destruyan el capitalismo",
+        "quemen la facultad",
+        "son incompatibles con #objeto#",
+        "destruyan el sistema educativo",
+        "sean contemplad#gender# en el Presupuesto",
+        "sean destruídos",
+        "son Objetos",
+        "desmoronan la democracia", 
+        "sean evaluad#gender#s como método de tortura"
+    ],
+
+    "area_de_estudio": [
+        "Ciencia",
+        "Física",
+        "Química",
+        "Matemática",
+        "Computación",
+        "Oceanografía",
+        "Paleontología"
+    ],
+
+    "emoji": [
+        "🀄",  "🃏",  "🅰",  "🅱",  "🅾",  "🅿",  "🆎",  "🆑",  "🆒",  "🆓",  "🆔",  "🆕",  "🆖",  "🆗",  "🆘",  "🆙",  "🆚",  "🇦",  "🇧",  "🇨",  "🇩",  "🇪",  "🇫",  "🇬",  "🇭",  "🇮",  "🇯",  "🇰",  "🇱",  "🇲",  "🇳",  "🇴",  "🇵",  "🇶",  "🇷",  "🇸",  "🇹",  "🇺",  "🇻",  "🇼",  "🇽",  "🇾",  "🇿",  "🈁",  "🈂",  "🈚",  "🈯",  "🈲",  "🈳",  "🈴",  "🈵",  "🈶",  "🈷",  "🈸",  "🈹",  "🈺",  "🉐",  "🉑",  "🌀",  "🌁",  "🌂",  "🌃",  "🌄",  "🌅",  "🌆",  "🌇",  "🌈",  "🌉",  "🌊",  "🌋",  "🌌",  "🌍",  "🌎",  "🌏",  "🌐",  "🌑",  "🌒",  "🌓",  "🌔",  "🌕",  "🌖",  "🌗",  "🌘",  "🌙",  "🌚",  "🌛",  "🌜",  "🌝",  "🌞",  "🌟",  "🌠",  "🌰",  "🌱",  "🌲",  "🌳",  "🌴",  "🌵",  "🌷",  "🌸",  "🌹",  "🌺",  "🌻",  "🌼",  "🌽",  "🌾",  "🌿",  "🍀",  "🍁",  "🍂",  "🍃",  "🍄",  "🍅",  "🍆",  "🍇",  "🍈",  "🍉",  "🍊",  "🍋",  "🍌",  "🍍",  "🍎",  "🍏",  "🍐",  "🍑",  "🍒",  "🍓",  "🍔",  "🍕",  "🍖",  "🍗",  "🍘",  "🍙",  "🍚",  "🍛",  "🍜",  "🍝",  "🍞",  "🍟",  "🍠",  "🍡",  "🍢",  "🍣",  "🍤",  "🍥",  "🍦",  "🍧",  "🍨",  "🍩",  "🍪",  "🍫",  "🍬",  "🍭",  "🍮",  "🍯",  "🍰",  "🍱",  "🍲",  "🍳",  "🍴",  "🍵",  "🍶",  "🍷",  "🍸",  "🍹",  "🍺",  "🍻",  "🍼",  "🎀",  "🎁",  "🎂",  "🎃",  "🎄",  "🎅",  "🎆",  "🎇",  "🎈",  "🎉",  "🎊",  "🎋",  "🎌",  "🎍",  "🎎",  "🎏",  "🎐",  "🎑",  "🎒",  "🎓",  "🎠",  "🎡",  "🎢",  "🎣",  "🎤",  "🎥",  "🎦",  "🎧",  "🎨",  "🎩",  "🎪",  "🎫",  "🎬",  "🎭",  "🎮",  "🎯",  "🎰",  "🎱",  "🎲",  "🎳",  "🎴",  "🎵",  "🎶",  "🎷",  "🎸",  "🎹",  "🎺",  "🎻",  "🎼",  "🎽",  "🎾",  "🎿",  "🏀",  "🏁",  "🏂",  "🏃",  "🏄",  "🏆",  "🏇",  "🏈",  "🏉",  "🏊",  "🏠",  "🏡",  "🏢",  "🏣",  "🏤",  "🏥",  "🏦",  "🏧",  "🏨",  "🏩",  "🏪",  "🏫",  "🏬",  "🏭",  "🏮",  "🏯",  "🏰",  "🐀",  "🐁",  "🐂",  "🐃",  "🐄",  "🐅",  "🐆",  "🐇",  "🐈",  "🐉",  "🐊",  "🐋",  "🐌",  "🐍",  "🐎",  "🐏",  "🐐",  "🐑",  "🐒",  "🐓",  "🐔",  "🐕",  "🐖",  "🐗",  "🐘",  "🐙",  "🐚",  "🐛",  "🐜",  "🐝",  "🐞",  "🐟",  "🐠",  "🐡",  "🐢",  "🐣",  "🐤",  "🐥",  "🐦",  "🐧",  "🐨",  "🐩",  "🐪",  "🐫",  "🐬",  "🐭",  "🐮",  "🐯",  "🐰",  "🐱",  "🐲",  "🐳",  "🐴",  "🐵",  "🐶",  "🐷",  "🐸",  "🐹",  "🐺",  "🐻",  "🐼",  "🐽",  "🐾",  "👀",  "👂",  "👃",  "👄",  "👅",  "👆",  "👇",  "👈",  "👉",  "👊",  "👋",  "👌",  "👍",  "👎",  "👏",  "👐",  "👑",  "👒",  "👓",  "👔",  "👕",  "👖",  "👗",  "👘",  "👙",  "👚",  "👛",  "👜",  "👝",  "👞",  "👟",  "👠",  "👡",  "👢",  "👣",  "👤",  "👥",  "👦",  "👧",  "👨",  "👩",  "👪",  "👫",  "👬",  "👭",  "👮",  "👯",  "👰",  "👱",  "👲",  "👳",  "👴",  "👵",  "👶",  "👷",  "👸",  "👹",  "👺",  "👻",  "👼",  "👽",  "👾",  "👿",  "💀",  "💁",  "💂",  "💃",  "💄",  "💅",  "💆",  "💇",  "💈",  "💉",  "💊",  "💋",  "💌",  "💍",  "💎",  "💏",  "💐",  "💑",  "💒",  "💓",  "💔",  "💕",  "💖",  "💗",  "💘",  "💙",  "💚",  "💛",  "💜",  "💝",  "💞",  "💟",  "💠",  "💡",  "💢",  "💣",  "💤",  "💥",  "💦",  "💧",  "💨",  "💩",  "💪",  "💫",  "💬",  "💭",  "💮",  "💯",  "💰",  "💱",  "💲",  "💳",  "💴",  "💵",  "💶",  "💷",  "💸",  "💹",  "💺",  "💻",  "💼",  "💽",  "💾",  "💿",  "📀",  "📁",  "📂",  "📃",  "📄",  "📅",  "📆",  "📇",  "📈",  "📉",  "📊",  "📋",  "📌",  "📍",  "📎",  "📏",  "📐",  "📑",  "📒",  "📓",  "📔",  "📕",  "📖",  "📗",  "📘",  "📙",  "📚",  "📛",  "📜",  "📝",  "📞",         "📟",         "📠", "📡", "📢", "📣", "📤", "📥", "📦", "📧", "📨", "📩", "📪", "📫", "📬", "📭", "📮", "📯", "📰", "📱", "📲", "📳", "📴", "📵", "📶", "📷", "📹", "📺", "📻", "📼", "🔀", "🔁", "🔂", "🔃", "🔄", "🔅", "🔆", "🔇", "🔈", "🔉", "🔊", "🔋", "🔌", "🔍", "🔎", "🔏", "🔐", "🔑", "🔒", "🔓", "🔔", "🔕", "🔖", "🔗", "🔘", "🔙", "🔚", "🔛", "🔜", "🔝", "🔞", "🔟", "🔠", "🔡", "🔢", "🔣", "🔤", "🔥", "🔦", "🔧", "🔨", "🔩", "🔪", "🔫", "🔬", "🔭", "🔮", "🔯", "🔰", "🔱", "🔲", "🔳", "🔴", "🔵", "🔶", "🔷", "🔸", "🔹", "🔺", "🔻", "🔼", "🔽", "🕐", "🕑", "🕒", "🕓", "🕔", "🕕", "🕖", "🕗", "🕘", "🕙", "🕚", "🕛", "🕜", "🕝", "🕞", "🕟", "🕠", "🕡", "🕢", "🕣", "🕤", "🕥", "🕦", "🕧", "🗻", "🗼", "🗽", "🗾", "🗿", "😀", "😁", "😂", "😃", "😄", "😅", "😆", "😇", "😈", "😉", "😊", "😋", "😌", "😍", "😎", "😏", "😐", "😑", "😒", "😓",         "😔",         "😕", "😖", "😗", "😘", "😙", "😚", "😛", "😜", "😝", "😞", "😟", "😠", "😡", "😢", "😣", "😤", "😥", "😦", "😧", "😨", "😩", "😪", "😫", "😬", "😭", "😮", "😯", "😰", "😱", "😲", "😳", "😴", "😵", "😶", "😷", "😸", "😹", "😺", "😻", "😼", "😽", "😾", "😿", "🙀", "🙁", "🙂", "🙅", "🙆", "🙇", "🙈", "🙉", "🙊", "🙋", "🙌", "🙍", "🙎", "🙏", "🚀", "🚁", "🚂", "🚃", "🚄", "🚅", "🚆", "🚇", "🚈", "🚉", "🚊", "🚋", "🚌", "🚍", "🚎", "🚏", "🚐", "🚑", "🚒", "🚓", "🚔", "🚕", "🚖", "🚗", "🚘", "🚙", "🚚", "🚛",
+        "🚜", "🚝", "🚞", "🚟", "🚠", "🚡", "🚢", "🚣", "🚤", "🚥", "🚦", "🚧", "🚨", "🚩", "🚪", "🚫", "🚬", "🚭", "🚮", "🚯", "🚰", "🚱", "🚲", "🚳", "🚴", "🚵", "🚶", "🚷", "🚸", "🚹", "🚺", "🚻", "🚼", "🚽", "🚾", "🚿", "🛀", "🛁", "🛂", "🛃", "🛄", "🛅", "‼", "⁉", "™", "ℹ", "↔", "↕", "↖", "↗", "↘", "↙", "↩", "↪", "#", "⌚", "⌛", "⏩", "⏪", "⏫", "⏬", "⏰", "⏳", "Ⓜ", "▪", "▫", "▶", "◀", "◻", "◼", "◽", "◾", "☀", "☁", "☎", "☑", "☔", "☕", "☝", "☺", "♈", "♉", "♊", "♋", "♌", "♍", "♎", "♏", "♐", "♑", "♒", "♓", "♠", "♣", "♥", "♦", "♨", "♻", "♿", "⚓", "⚠", "⚡", "⚪", "⚫", "⚽", "⚾", "⛄", "⛅", "⛎", "⛔", "⛪", "⛲", "⛳", "⛵", "⛺", "⛽", "✂", "✅", "✈", "✉", "✊", "✋", "✌", "✏", "✒", "✔", "✖", "✨", "✳", "✴", "❄", "❇", "❌", "❎", "❓", "❔", "❕", "❗", "❤", "➕", "➖", "➗", "➡", "➰", "➿", "⤴", "⤵", "⬅", "⬆", "⬇", "⬛", "⬜", "⭐", "⭕", "0", "〰", "〽", "1", "2", "㊗", "㊙", "3", "4", "5", "6", "7", "8", "9", "©", "®"
+      ]
+}
