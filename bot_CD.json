@@ -24,21 +24,39 @@
         "#starters# #sustantivo# #accion#.",
         "#starters# #sustantivo# #accion#.",
         "#starters# #sustantivo# #accion#.",
-        "#custom_random#"
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#."
     ],
     "articulo2": [
         "#starters# #sustantivo# #accion#.",
         "#starters# #sustantivo# #accion#.",
         "#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+        "#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
         "#custom_random#"
     ],
     "articulo3": [
         "#starters# #sustantivo# #accion#.",
         "#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
+	"#starters# #sustantivo# #accion#.",
         "#custom_random#"
     ],
     "articulo4": [
         "#starters# #sustantivo# #accion#.",
+	 "#starters# #sustantivo# #accion#.",
+	 "#starters# #sustantivo# #accion#.",
+	 "#starters# #sustantivo# #accion#.",	
         "#custom_random#"
     ],
 
@@ -174,21 +192,26 @@
     ],
 
     "sustantivo": [
-        "#objeto_u_objetos#", "#sujeto_o_sujetos#"
+        "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#sujeto_o_sujetos#"
     ],
 
     "objeto_u_objetos":[
+        "#objeto#[accion:#accion_singular_objeto#]", 
+        "#objeto#[accion:#accion_singular_objeto#]", 
         "#objeto#[accion:#accion_singular_objeto#]", 
         "#objetos#[accion:#accion_plural_objetos#]"
     ],
 
     "sujeto_o_sujetos":[
         "#sujeto#[accion:#accion_singular_sujeto#]", 
+        "#sujeto#[accion:#accion_singular_sujeto#]", 
+        "#sujeto#[accion:#accion_singular_sujeto#]", 
+	 "#sujeto#[accion:#accion_singular_sujeto#]", 
         "#sujetos#[accion:#accion_plural_sujetos#]"
     ],
 
     "objeto": [
-        "#objeto_fem#[gender:a]", "#objeto_masc#[gender:o]"
+        "#objeto_fem#[gender:a]", "#objeto_masc#[gender:o]", "#objeto_masc#[gender:o]"
     ],
 
     "objeto_masc":[
@@ -212,7 +235,7 @@
     ],
 
     "sujeto": [
-        "#sujeto_fem#[gender:a]", "#sujeto_masc#[gender:o]"
+	"#sujeto_fem#[gender:a]", "#sujeto_masc#[gender:o]", "#sujeto_masc#[gender:o]", "#sujeto_masc#[gender:o]", "#sujeto_masc#[gender:o]"
     ],
 
     "sujeto_masc":[
@@ -260,7 +283,7 @@
     ],
 
     "objetos": [
-        "#objetos_fem#[gender:a]", "#objetos_masc#[gender:o]"
+        "#objetos_fem#[gender:a]", "#objetos_masc#[gender:o]", "#objetos_masc#[gender:o]"
     ],
 
     "objetos_fem":[
@@ -289,7 +312,7 @@
     ],
 
     "sujetos": [
-        "#sujetos_fem#[gender:a]", "#sujetos_masc#[gender:o]"
+        "#sujetos_fem#[gender:a]", "#sujetos_masc#[gender:o]", "#sujetos_masc#[gender:o]", "#sujetos_masc#[gender:o]", "#sujetos_masc#[gender:o]", "#sujetos_masc#[gender:o]"
     ],
 
     "sujetos_masc":[
@@ -355,7 +378,7 @@
     ],
 
     "accion_singular_objeto": [
-        "sea tenido en cuenta al momento de confeccionar exámentes",
+        "sea tenid#gender# en cuenta al momento de confeccionar exámentes",
         "genera un sentimiento de depresión entre el alumnado",
         "destruya el capitalismo",
         "es incompatible con #objetos#",
