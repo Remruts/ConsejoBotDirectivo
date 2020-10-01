@@ -111,7 +111,8 @@
         "empanadas de pollo",
         "empanadas de jamón y queso",
         "empanadas de humita",
-        "chocolates"
+        "chocolates",
+	"trenzas"
     ],
 
     "cuantificador": ["más", "menos", "un poquito más", "un poquito menos", "mucho más", "mucho menos", "imposiblemente", "inconmensurablemente"],
@@ -192,7 +193,7 @@
     ],
 
     "sustantivo": [
-        "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#objeto_u_objetos#", "#sujeto_o_sujetos#"
+        "#objeto_u_objetos#", "#sujeto_o_sujetos#"
     ],
 
     "objeto_u_objetos":[
@@ -383,7 +384,14 @@
         "destruya el capitalismo",
         "es incompatible con #objetos#",
         "sea contemplad#gender# en el Presupuesto",
-        "genera deserción"
+        "genera deserción",
+	"hace triste a #personas#",
+	"iría re bien con #productos#",
+	"no es un sistema axiomático #axioma#"
+    ],
+
+    "axioma":[
+        "completo", "consistente"
     ],
 
     "accion_plural_sujetos": [
@@ -405,7 +413,7 @@
         "den clases públicas en #lugar#",
         "estén escondid#gender#s en #lugar#",
         "estén jugando al Counter en #lugar#",
-        "sean contemplad#gender# en el Presupuesto",
+        "sean contemplad#gender#s en el Presupuesto",
         "deben realizar más actividades deportivas",
         "son demasiado #tipo_tps#",
         "sea sacrificad#gender#s a #Dios#",
@@ -418,7 +426,6 @@
         "quemen la facultad",
         "son incompatibles con #objeto#",
         "destruyan el sistema educativo",
-        "sean contemplad#gender# en el Presupuesto",
         "sean destruídos",
         "son Objetos",
         "desmoronan la democracia", 
